@@ -5,6 +5,7 @@ const palette = {
 		main: "#a33f97",
 		textContrast: "#ffffff",
 	},
+	white: "#ffffff",
 };
 
 export default palette;

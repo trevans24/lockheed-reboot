@@ -6,7 +6,7 @@ import "./theme/global.css";
 const App = (props) => {
 	return (
 		<ThemeProvider theme={theme}>
-			<Button variant="contained">test</Button>
+			<Button>test</Button>
 		</ThemeProvider>
 	);
 };

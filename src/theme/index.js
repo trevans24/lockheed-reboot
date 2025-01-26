@@ -1,8 +1,11 @@
 import { createTheme } from "@mui/material/styles";
+
+import components from "./components";
 import palette from "./palette";
 
 const theme = createTheme({
-	cssVariables: true,
+	components,
+	// cssVariables: true,
 	palette,
 });
 
