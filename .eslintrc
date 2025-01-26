@@ -1,0 +1,15 @@
+{
+	"root": true,
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["unused-imports"],
+	"extends": [
+		"eslint:recommended",
+		"plugin:prettier/recommended",
+		"react-app",
+		"react-app/jest",
+	],
+	"rules": {
+		"indent": ["error", 2],
+		"quotes": ["warn", "single"],
+	},
+}
